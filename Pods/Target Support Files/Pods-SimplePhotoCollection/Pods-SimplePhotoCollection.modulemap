@@ -1,0 +1,6 @@
+framework module Pods_SimplePhotoCollection {
+  umbrella header "Pods-SimplePhotoCollection-umbrella.h"
+
+  export *
+  module * { export * }
+}

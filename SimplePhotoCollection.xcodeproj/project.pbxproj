@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731A6C4623F782E1000C7EF1 /* DetailViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731A6C4523F782E1000C7EF1 /* DetailViewControler.swift */; };
 		732C2B3423F6BDAF00CEC14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B3323F6BDAF00CEC14D /* AppDelegate.swift */; };
 		732C2B3623F6BDAF00CEC14D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B3523F6BDAF00CEC14D /* SceneDelegate.swift */; };
-		732C2B3823F6BDAF00CEC14D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B3723F6BDAF00CEC14D /* ViewController.swift */; };
+		732C2B3823F6BDAF00CEC14D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B3723F6BDAF00CEC14D /* PhotosViewController.swift */; };
 		732C2B3B23F6BDAF00CEC14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732C2B3923F6BDAF00CEC14D /* Main.storyboard */; };
 		732C2B3D23F6BDB100CEC14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732C2B3C23F6BDB100CEC14D /* Assets.xcassets */; };
 		732C2B4023F6BDB100CEC14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732C2B3E23F6BDB100CEC14D /* LaunchScreen.storyboard */; };
+		732C2B4C23F6C00E00CEC14D /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B4B23F6C00E00CEC14D /* ImageModel.swift */; };
+		732C2B4E23F6C6C700CEC14D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B4D23F6C6C700CEC14D /* Router.swift */; };
+		732C2B5023F6CCEF00CEC14D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732C2B4F23F6CCEF00CEC14D /* Client.swift */; };
+		73BC9B4623F74DCD00130C74 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC9B4523F74DCD00130C74 /* ImageViewCell.swift */; };
+		73BC9B4823F7525000130C74 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC9B4723F7525000130C74 /* ImageViewModel.swift */; };
+		73BC9B4B23F768E700130C74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BC9B4A23F768E700130C74 /* Extensions.swift */; };
+		C891CFB9214BD730C65C0F0F /* Pods_SimplePhotoCollection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB94946F684D798338578FA /* Pods_SimplePhotoCollection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AB94946F684D798338578FA /* Pods_SimplePhotoCollection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplePhotoCollection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731A6C4523F782E1000C7EF1 /* DetailViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControler.swift; sourceTree = "<group>"; };
 		732C2B3023F6BDAF00CEC14D /* SimplePhotoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePhotoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		732C2B3323F6BDAF00CEC14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		732C2B3523F6BDAF00CEC14D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		732C2B3723F6BDAF00CEC14D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		732C2B3723F6BDAF00CEC14D /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		732C2B3A23F6BDAF00CEC14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		732C2B3C23F6BDB100CEC14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		732C2B3F23F6BDB100CEC14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		732C2B4123F6BDB100CEC14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732C2B4B23F6C00E00CEC14D /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		732C2B4D23F6C6C700CEC14D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		732C2B4F23F6CCEF00CEC14D /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		73BC9B4523F74DCD00130C74 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		73BC9B4723F7525000130C74 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		73BC9B4A23F768E700130C74 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8FD50103853E7EB3B9C7B10D /* Pods-SimplePhotoCollection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoCollection.release.xcconfig"; path = "Target Support Files/Pods-SimplePhotoCollection/Pods-SimplePhotoCollection.release.xcconfig"; sourceTree = "<group>"; };
+		940EBBD5E6DBB2DAAD156326 /* Pods-SimplePhotoCollection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplePhotoCollection.debug.xcconfig"; path = "Target Support Files/Pods-SimplePhotoCollection/Pods-SimplePhotoCollection.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C891CFB9214BD730C65C0F0F /* Pods_SimplePhotoCollection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55B6754F456F21644A629418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB94946F684D798338578FA /* Pods_SimplePhotoCollection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		732C2B2723F6BDAF00CEC14D = {
 			isa = PBXGroup;
 			children = (
 				732C2B3223F6BDAF00CEC14D /* SimplePhotoCollection */,
 				732C2B3123F6BDAF00CEC14D /* Products */,
+				EE153DA7C6299D9B9F423644 /* Pods */,
+				55B6754F456F21644A629418 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,87 @@
 		732C2B3223F6BDAF00CEC14D /* SimplePhotoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				73BC9B4923F768C500130C74 /* Extensions */,
+				732C2B4A23F6BFD400CEC14D /* Network */,
+				732C2B4823F6BDE800CEC14D /* Models */,
+				73BC9B4223F74C2A00130C74 /* Views */,
+				73BC9B4323F74C5A00130C74 /* ViewModels */,
+				73BC9B4123F74BFD00130C74 /* Controllers */,
+				732C2B4923F6BDFD00CEC14D /* Support Files */,
+			);
+			path = SimplePhotoCollection;
+			sourceTree = "<group>";
+		};
+		732C2B4823F6BDE800CEC14D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				732C2B4B23F6C00E00CEC14D /* ImageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		732C2B4923F6BDFD00CEC14D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				732C2B3323F6BDAF00CEC14D /* AppDelegate.swift */,
-				732C2B3523F6BDAF00CEC14D /* SceneDelegate.swift */,
-				732C2B3723F6BDAF00CEC14D /* ViewController.swift */,
 				732C2B3923F6BDAF00CEC14D /* Main.storyboard */,
 				732C2B3C23F6BDB100CEC14D /* Assets.xcassets */,
 				732C2B3E23F6BDB100CEC14D /* LaunchScreen.storyboard */,
+				732C2B3523F6BDAF00CEC14D /* SceneDelegate.swift */,
 				732C2B4123F6BDB100CEC14D /* Info.plist */,
 			);
-			path = SimplePhotoCollection;
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		732C2B4A23F6BFD400CEC14D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				732C2B4D23F6C6C700CEC14D /* Router.swift */,
+				732C2B4F23F6CCEF00CEC14D /* Client.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		73BC9B4123F74BFD00130C74 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				732C2B3723F6BDAF00CEC14D /* PhotosViewController.swift */,
+				731A6C4523F782E1000C7EF1 /* DetailViewControler.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		73BC9B4223F74C2A00130C74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				73BC9B4523F74DCD00130C74 /* ImageViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		73BC9B4323F74C5A00130C74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				73BC9B4723F7525000130C74 /* ImageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		73BC9B4923F768C500130C74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73BC9B4A23F768E700130C74 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE153DA7C6299D9B9F423644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				940EBBD5E6DBB2DAAD156326 /* Pods-SimplePhotoCollection.debug.xcconfig */,
+				8FD50103853E7EB3B9C7B10D /* Pods-SimplePhotoCollection.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 732C2B4423F6BDB100CEC14D /* Build configuration list for PBXNativeTarget "SimplePhotoCollection" */;
 			buildPhases = (
+				5FF46CAC1029246B890FC05F /* [CP] Check Pods Manifest.lock */,
 				732C2B2C23F6BDAF00CEC14D /* Sources */,
 				732C2B2D23F6BDAF00CEC14D /* Frameworks */,
 				732C2B2E23F6BDAF00CEC14D /* Resources */,
+				C575C1BDF32C8ECFA3DB65D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +236,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FF46CAC1029246B890FC05F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplePhotoCollection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C575C1BDF32C8ECFA3DB65D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoCollection/Pods-SimplePhotoCollection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoCollection/Pods-SimplePhotoCollection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimplePhotoCollection/Pods-SimplePhotoCollection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		732C2B2C23F6BDAF00CEC14D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				732C2B3823F6BDAF00CEC14D /* ViewController.swift in Sources */,
+				732C2B3823F6BDAF00CEC14D /* PhotosViewController.swift in Sources */,
+				73BC9B4623F74DCD00130C74 /* ImageViewCell.swift in Sources */,
 				732C2B3423F6BDAF00CEC14D /* AppDelegate.swift in Sources */,
+				732C2B5023F6CCEF00CEC14D /* Client.swift in Sources */,
+				732C2B4E23F6C6C700CEC14D /* Router.swift in Sources */,
 				732C2B3623F6BDAF00CEC14D /* SceneDelegate.swift in Sources */,
+				73BC9B4B23F768E700130C74 /* Extensions.swift in Sources */,
+				73BC9B4823F7525000130C74 /* ImageViewModel.swift in Sources */,
+				731A6C4623F782E1000C7EF1 /* DetailViewControler.swift in Sources */,
+				732C2B4C23F6C00E00CEC14D /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +434,12 @@
 		};
 		732C2B4523F6BDB100CEC14D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 940EBBD5E6DBB2DAAD156326 /* Pods-SimplePhotoCollection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPLA52K7UB;
-				INFOPLIST_FILE = SimplePhotoCollection/Info.plist;
+				INFOPLIST_FILE = "SimplePhotoCollection/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +453,12 @@
 		};
 		732C2B4623F6BDB100CEC14D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FD50103853E7EB3B9C7B10D /* Pods-SimplePhotoCollection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPLA52K7UB;
-				INFOPLIST_FILE = SimplePhotoCollection/Info.plist;
+				INFOPLIST_FILE = "SimplePhotoCollection/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
